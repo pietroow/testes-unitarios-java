@@ -1,7 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/src/main/java/servicos/LocacaoService.java" line="41" mnemonic="9" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="6fe52314-3bb6-4e0a-bc08-c09a0235ee12" name="Default" comment="" />
+    <list default="true" id="6fe52314-3bb6-4e0a-bc08-c09a0235ee12" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/uds.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/exceptions/FilmeSemEstoqueException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/exceptions/LocadoraException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/exceptions/NaoPodeDividirPorZeroException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/servicos/Calculadora.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/servicos/CalculadoraTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/servicos/OrdemTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/entidades/Locacao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entidades/Locacao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/servicos/LocacaoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/servicos/LocacaoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/servicos/LocacaoServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/servicos/LocacaoServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/entidades/Locacao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/entidades/Locacao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/servicos/LocacaoService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/servicos/LocacaoService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/servicos/LocacaoServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/servicos/LocacaoServiceTest.class" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -13,11 +31,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="AssertTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/servicos/AssertTest.java">
+      <file leaf-file-name="LocacaoService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/servicos/LocacaoService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="21" column="46" selection-start-line="21" selection-start-column="46" selection-end-line="21" selection-end-column="46" />
+            <state relative-caret-position="510">
+              <caret line="56" column="31" selection-start-line="56" selection-start-column="31" selection-end-line="56" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -28,10 +46,12 @@
       <file leaf-file-name="LocacaoServiceTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/servicos/LocacaoServiceTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="36" column="102" selection-start-line="36" selection-start-column="102" selection-end-line="36" selection-end-column="102" />
+            <state relative-caret-position="244">
+              <caret line="164" column="34" selection-start-line="164" selection-start-column="34" selection-end-line="164" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#915#916#0" expanded="true" />
+                <element signature="e#961#962#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -45,6 +65,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="projectSyncType">
@@ -66,10 +89,18 @@
         <option value="$PROJECT_DIR$/src/main/java/servicos/LocacaoServiceTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/servicosTest/LocacaoServiceTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/LocacaoServiceTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/servicos/LocacaoService.java" />
         <option value="$PROJECT_DIR$/src/main/java/entidades/Usuario.java" />
         <option value="$PROJECT_DIR$/src/test/java/servicos/AssertTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/exceptions/FilmeSemEstoqueException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/exceptions/LocadoraException.java" />
+        <option value="$PROJECT_DIR$/src/test/java/servicos/OrdemTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/entidades/Locacao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/entidades/Filme.java" />
+        <option value="$PROJECT_DIR$/src/main/java/exceptions/NaoPodeDividirPorZeroException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/servicos/Calculadora.java" />
+        <option value="$PROJECT_DIR$/src/test/java/servicos/CalculadoraTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/servicos/LocacaoServiceTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/servicos/LocacaoService.java" />
       </list>
     </option>
   </component>
@@ -82,7 +113,7 @@
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="25" />
-    <option name="width" value="1920" />
+    <option name="width" value="1370" />
     <option name="height" value="1055" />
   </component>
   <component name="ProjectView">
@@ -90,6 +121,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Course" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -122,6 +156,14 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="entidades" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Curso-TesteUnitario" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Curso-TesteUnitario" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="exceptions" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Curso-TesteUnitario" type="b2602c69:ProjectViewProjectNode" />
@@ -164,9 +206,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Course" />
-      <pane id="Scope" />
       <pane id="AndroidView" />
     </panes>
   </component>
@@ -175,6 +214,10 @@
       <recent name="servicos" />
       <recent name="" />
       <recent name="servicosTest" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="exceptions" />
+      <recent name="servicos" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -189,32 +232,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.LocacaoServiceTest.testeLocacao">
+  <component name="RunManager" selected="JUnit.LocacaoServiceTest.devePagar0PctNoFilme6">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration name="AssertTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Curso-TesteUnitario" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="servicos.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="servicos" />
-      <option name="MAIN_CLASS_NAME" value="servicos.AssertTest" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
     </configuration>
     <configuration name="LocacaoServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Curso-TesteUnitario" />
@@ -239,30 +259,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="LocacaoServiceTest.teste" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Curso-TesteUnitario" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value=".*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="servicos" />
-      <option name="MAIN_CLASS_NAME" value="servicos.LocacaoServiceTest" />
-      <option name="METHOD_NAME" value="teste" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="LocacaoServiceTest.testeLocacao" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LocacaoServiceTest.devePagar0PctNoFilme6" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Curso-TesteUnitario" />
       <extension name="coverage">
         <pattern>
@@ -274,7 +271,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="servicos" />
       <option name="MAIN_CLASS_NAME" value="servicos.LocacaoServiceTest" />
-      <option name="METHOD_NAME" value="testeLocacao" />
+      <option name="METHOD_NAME" value="devePagar0PctNoFilme6" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -285,19 +282,65 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="LocacaoService.teste" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LocacaoServiceTest.devePagar25PctNoFilme5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Curso-TesteUnitario" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value=".*" />
+          <option name="PATTERN" value="servicos.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="servicos" />
-      <option name="MAIN_CLASS_NAME" value="servicos.LocacaoService" />
-      <option name="METHOD_NAME" value="teste" />
+      <option name="MAIN_CLASS_NAME" value="servicos.LocacaoServiceTest" />
+      <option name="METHOD_NAME" value="devePagar25PctNoFilme5" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="LocacaoServiceTest.devePagar50PctNoFilme4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Curso-TesteUnitario" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="servicos.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="servicos" />
+      <option name="MAIN_CLASS_NAME" value="servicos.LocacaoServiceTest" />
+      <option name="METHOD_NAME" value="devePagar50PctNoFilme4" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="LocacaoServiceTest.devePagar75PctNoFilme3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Curso-TesteUnitario" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="servicos.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="servicos" />
+      <option name="MAIN_CLASS_NAME" value="servicos.LocacaoServiceTest" />
+      <option name="METHOD_NAME" value="devePagar75PctNoFilme3" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -347,19 +390,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.LocacaoService.teste" />
-      <item itemvalue="JUnit.LocacaoServiceTest.teste" />
       <item itemvalue="JUnit.LocacaoServiceTest" />
-      <item itemvalue="JUnit.AssertTest.test" />
-      <item itemvalue="JUnit.LocacaoServiceTest.testeLocacao" />
+      <item itemvalue="JUnit.LocacaoServiceTest.devePagar75PctNoFilme3" />
+      <item itemvalue="JUnit.LocacaoServiceTest.devePagar50PctNoFilme4" />
+      <item itemvalue="JUnit.LocacaoServiceTest.devePagar25PctNoFilme5" />
+      <item itemvalue="JUnit.LocacaoServiceTest.devePagar0PctNoFilme6" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.LocacaoServiceTest.testeLocacao" />
-        <item itemvalue="JUnit.LocacaoServiceTest.teste" />
-        <item itemvalue="JUnit.AssertTest.test" />
+        <item itemvalue="JUnit.LocacaoServiceTest.devePagar0PctNoFilme6" />
+        <item itemvalue="JUnit.LocacaoServiceTest.devePagar25PctNoFilme5" />
+        <item itemvalue="JUnit.LocacaoServiceTest.devePagar50PctNoFilme4" />
+        <item itemvalue="JUnit.LocacaoServiceTest.devePagar75PctNoFilme3" />
         <item itemvalue="JUnit.LocacaoServiceTest" />
-        <item itemvalue="JUnit.LocacaoService.teste" />
       </list>
     </recent_temporary>
   </component>
@@ -377,35 +420,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AssertTest_test - 2018.07.25 at 11h 30m 34s.xml">
-      <configuration name="AssertTest.test" configurationId="JUnit" />
+    <history-entry file="CalculadoraTest - 2018.07.26 at 14h 57m 02s.xml">
+      <configuration name="CalculadoraTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AssertTest_test - 2018.07.25 at 11h 31m 06s.xml">
-      <configuration name="AssertTest.test" configurationId="JUnit" />
+    <history-entry file="CalculadoraTest - 2018.07.26 at 15h 31m 34s.xml">
+      <configuration name="CalculadoraTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AssertTest_test - 2018.07.25 at 11h 32m 27s.xml">
-      <configuration name="AssertTest.test" configurationId="JUnit" />
+    <history-entry file="LocacaoServiceTest - 2018.07.26 at 15h 31m 40s.xml">
+      <configuration name="LocacaoServiceTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AssertTest_test - 2018.07.25 at 11h 32m 43s.xml">
-      <configuration name="AssertTest.test" configurationId="JUnit" />
+    <history-entry file="LocacaoServiceTest_devePagar75PctNoFilme3 - 2018.07.26 at 15h 57m 24s.xml">
+      <configuration name="LocacaoServiceTest.devePagar75PctNoFilme3" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AssertTest_test - 2018.07.25 at 11h 32m 51s.xml">
-      <configuration name="AssertTest.test" configurationId="JUnit" />
+    <history-entry file="LocacaoServiceTest_devePagar75PctNoFilme3 - 2018.07.26 at 16h 02m 12s.xml">
+      <configuration name="LocacaoServiceTest.devePagar75PctNoFilme3" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AssertTest_test - 2018.07.25 at 11h 33m 06s.xml">
-      <configuration name="AssertTest.test" configurationId="JUnit" />
+    <history-entry file="LocacaoServiceTest_devePagar50PctNoFilme4 - 2018.07.26 at 17h 19m 21s.xml">
+      <configuration name="LocacaoServiceTest.devePagar50PctNoFilme4" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LocacaoServiceTest_teste - 2018.07.25 at 11h 38m 15s.xml">
-      <configuration name="LocacaoServiceTest.teste" configurationId="JUnit" />
+    <history-entry file="LocacaoServiceTest_devePagar50PctNoFilme4 - 2018.07.26 at 17h 19m 59s.xml">
+      <configuration name="LocacaoServiceTest.devePagar50PctNoFilme4" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LocacaoServiceTest_teste - 2018.07.25 at 14h 29m 12s.xml">
-      <configuration name="LocacaoServiceTest.teste" configurationId="JUnit" />
+    <history-entry file="LocacaoServiceTest_devePagar25PctNoFilme5 - 2018.07.26 at 17h 24m 46s.xml">
+      <configuration name="LocacaoServiceTest.devePagar25PctNoFilme5" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LocacaoServiceTest_testeLocacao - 2018.07.25 at 14h 53m 27s.xml">
-      <configuration name="LocacaoServiceTest.testeLocacao" configurationId="JUnit" />
+    <history-entry file="LocacaoServiceTest_devePagar25PctNoFilme5 - 2018.07.26 at 17h 25m 46s.xml">
+      <configuration name="LocacaoServiceTest.devePagar25PctNoFilme5" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LocacaoServiceTest_testeLocacao - 2018.07.25 at 14h 55m 22s.xml">
-      <configuration name="LocacaoServiceTest.testeLocacao" configurationId="JUnit" />
+    <history-entry file="LocacaoServiceTest_devePagar0PctNoFilme6 - 2018.07.26 at 17h 25m 48s.xml">
+      <configuration name="LocacaoServiceTest.devePagar0PctNoFilme6" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -414,24 +457,24 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32900432" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.3286334" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32900432" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3286334" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25506938" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19210246" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -445,10 +488,32 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="8" />
+      <option name="time" value="12" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/test/java/servicos/AssertTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" column="46" selection-start-line="21" selection-start-column="46" selection-end-line="21" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/servicos/LocacaoServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="36" column="102" selection-start-line="36" selection-start-column="102" selection-end-line="36" selection-end-column="102" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#915#916#0" expanded="true" />
+            <element signature="e#961#962#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/entidades/Usuario.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
@@ -503,6 +568,8 @@
           <caret line="24" column="32" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#915#916#0" expanded="true" />
+            <element signature="e#961#962#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -561,21 +628,9 @@
           <caret line="24" column="32" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#915#916#0" expanded="true" />
+            <element signature="e#961#962#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/entidades/Filme.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="741">
-          <caret line="39" column="41" selection-start-line="39" selection-start-column="41" selection-end-line="39" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/entidades/Locacao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
         </state>
       </provider>
     </entry>
@@ -596,27 +651,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/servicos/LocacaoService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/entidades/Usuario.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-          <folding>
-            <element signature="e#217#218#0" expanded="true" />
-            <element signature="e#244#245#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/Assert.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4997">
@@ -624,10 +658,169 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar!/java/lang/Throwable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar!/java/lang/Exception.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="7" column="35" lean-forward="true" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/servicos/AssertTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
+        <state relative-caret-position="54">
           <caret line="21" column="46" selection-start-line="21" selection-start-column="46" selection-end-line="21" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/exceptions/LocadoraException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/entidades/Usuario.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="e#217#218#0" expanded="true" />
+            <element signature="e#244#245#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/servicos/OrdemTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="44" lean-forward="true" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/entidades/Locacao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="472">
+          <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#889#890#0" expanded="true" />
+            <element signature="e#918#919#0" expanded="true" />
+            <element signature="e#967#968#0" expanded="true" />
+            <element signature="e#1003#1004#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/entidades/Filme.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/statements/RunBefores.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="421">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/rules/Verifier.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/rules/ExpectedException.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="98" selection-start-line="98" selection-end-line="98" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/rules/RunRules.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runner/JUnitCore.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="70" selection-start-line="70" selection-end-line="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/exceptions/FilmeSemEstoqueException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/statements/ExpectException.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="388">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/internal/runners/statements/ExpectException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/exceptions/NaoPodeDividirPorZeroException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="62" selection-start-line="2" selection-start-column="62" selection-end-line="2" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/servicos/Calculadora.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="55" selection-start-line="19" selection-start-column="55" selection-end-line="19" selection-end-column="55" />
+          <folding>
+            <element signature="e#151#152#0" expanded="true" />
+            <element signature="e#179#180#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/servicos/CalculadoraTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="60" column="27" selection-start-line="60" selection-start-column="27" selection-end-line="60" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#242#243#0" expanded="true" />
+            <element signature="e#282#283#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/servicos/LocacaoService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="56" column="31" selection-start-line="56" selection-start-column="31" selection-end-line="56" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -636,10 +829,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/servicos/LocacaoServiceTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="36" column="102" selection-start-line="36" selection-start-column="102" selection-end-line="36" selection-end-column="102" />
+        <state relative-caret-position="244">
+          <caret line="164" column="34" selection-start-line="164" selection-start-column="34" selection-end-line="164" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#915#916#0" expanded="true" />
+            <element signature="e#961#962#0" expanded="true" />
           </folding>
         </state>
       </provider>
