@@ -5,7 +5,9 @@ import entidades.Locacao;
 import entidades.Usuario;
 import exceptions.FilmeSemEstoqueException;
 import exceptions.LocadoraException;
+import utils.DataUtils;
 
+import java.util.Calendar;
 import java.util.Date;
 import java.util.List;
 
@@ -29,7 +31,6 @@ public class LocacaoService {
             }
 
         }
-
 
         Locacao locacao = new Locacao();
         locacao.setFilmes(filmes);
@@ -55,6 +56,9 @@ public class LocacaoService {
         //Entrega no dia seguinte
         Date dataEntrega = new Date();
         dataEntrega = adicionarDias(dataEntrega, 1);
+        if (DataUtils.verificarDiaSemana(dataEntrega, Calendar.SUNDAY)){
+            dataEntrega = adicionarDias(dataEntrega, 1);
+        }
         locacao.setDataRetorno(dataEntrega);
 
         //Salvando a locacao...
