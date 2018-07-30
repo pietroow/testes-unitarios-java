@@ -1,6 +1,9 @@
 package servicos;
 
+import builder.FilmeBuilder;
 import builder.UsuarioBuilder;
+import dao.LocacaoDao;
+import dao.LocacaoDaoFake;
 import entidades.Filme;
 import entidades.Locacao;
 import entidades.Usuario;
@@ -13,6 +16,7 @@ import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
 import org.junit.runners.Parameterized.Parameter;
 import org.junit.runners.Parameterized.Parameters;
+import org.mockito.Mockito;
 
 import java.util.Arrays;
 import java.util.Collection;
@@ -24,6 +28,8 @@ import static org.hamcrest.CoreMatchers.is;
 public class CalculoValorLocacaoTest {
 
     public LocacaoService service;
+    public LocacaoDao dao;
+    public SPCService spc;
 
     @Parameter
     public List<Filme> filmes;
@@ -40,15 +46,20 @@ public class CalculoValorLocacaoTest {
     @Before
     public void setup() {
         service = new LocacaoService();
+        dao = Mockito.mock(LocacaoDao.class);
+        service.setLocacaoDao(dao);
+        spc = Mockito.mock(SPCService.class);
+        service.setSpcService(spc);
+
     }
 
-    private static Filme filme1 = new Filme("filme 1", 2, 4.0);
-    private static Filme filme2 = new Filme("filme 2", 2, 4.0);
-    private static Filme filme3 = new Filme("filme 3", 2, 4.0);
-    private static Filme filme4 = new Filme("filme 4", 2, 4.0);
-    private static Filme filme5 = new Filme("filme 5", 2, 4.0);
-    private static Filme filme6 = new Filme("filme 6", 2, 4.0);
-    private static Filme filme7 = new Filme("filme 7", 2, 4.0);
+    private static Filme filme1 = FilmeBuilder.umFilme().agora();
+    private static Filme filme2 = FilmeBuilder.umFilme().agora();
+    private static Filme filme3 = FilmeBuilder.umFilme().agora();
+    private static Filme filme4 = FilmeBuilder.umFilme().agora();
+    private static Filme filme5 = FilmeBuilder.umFilme().agora();
+    private static Filme filme6 = FilmeBuilder.umFilme().agora();
+    private static Filme filme7 = FilmeBuilder.umFilme().agora();
 
 
     @Parameters(name = "Teste {index} = {2}")

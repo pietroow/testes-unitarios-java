@@ -1,5 +1,6 @@
 package servicos;
 
+import dao.LocacaoDao;
 import entidades.Filme;
 import entidades.Locacao;
 import entidades.Usuario;
@@ -14,6 +15,9 @@ import java.util.List;
 import static utils.DataUtils.adicionarDias;
 
 public class LocacaoService {
+
+    private LocacaoDao dao;
+    private SPCService spcService;
 
     public Locacao alugarFilme(Usuario usuario, List<Filme> filmes) throws FilmeSemEstoqueException, LocadoraException {
 
@@ -31,6 +35,11 @@ public class LocacaoService {
             }
 
         }
+
+        if(spcService.possuiNegativacao(usuario)){
+            throw new LocadoraException("Usuario negativado");
+        }
+
 
         Locacao locacao = new Locacao();
         locacao.setFilmes(filmes);
@@ -62,8 +71,16 @@ public class LocacaoService {
         locacao.setDataRetorno(dataEntrega);
 
         //Salvando a locacao...
-        //TODO adicionar método para salvar
+        dao.salvar(locacao);
 
         return locacao;
+    }
+
+    public void setLocacaoDao(LocacaoDao dao){
+        this.dao = dao;
+    }
+
+    public void setSpcService(SPCService spc) {
+        spcService = spc;
     }
 }
