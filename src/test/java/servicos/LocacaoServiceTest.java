@@ -1,6 +1,7 @@
 package servicos;
 
 import builder.FilmeBuilder;
+import builder.LocacaoBuilder;
 import builder.UsuarioBuilder;
 import dao.LocacaoDao;
 import entidades.Filme;
@@ -28,6 +29,7 @@ import static org.hamcrest.CoreMatchers.equalTo;
 import static org.hamcrest.CoreMatchers.is;
 import static org.junit.Assert.assertThat;
 import static org.junit.Assert.fail;
+import static utils.DataUtils.obterDataComDiferencaDias;
 
 public class LocacaoServiceTest {
 
@@ -138,6 +140,17 @@ public class LocacaoServiceTest {
 
         //acao
         service.alugarFilme(usuario, filmes);
+    }
+
+    @Test
+    public void deveEnviarEmailParaLocacoesAtrasadas(){
+        //cenario
+        List<Locacao> locacoes = Arrays.asList(LocacaoBuilder.umLocacao().comDataRetorno(obterDataComDiferencaDias(-2)).agora());
+
+        Mockito.when(dao.obterLocacoesPendentes()).thenReturn(locacoes);
+        //acao
+        service.notificarAtrasos();
+        //verificacao
     }
 
 
